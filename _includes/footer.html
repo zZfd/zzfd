@@ -1,3 +1,10 @@
+<!--
+ * @Author: zfd
+ * @Date: 2021-01-19 08:54:57
+ * @LastEditors: zfd
+ * @LastEditTime: 2021-01-19 09:39:51
+ * @Description: 
+-->
     </main>
     <footer class="page-footer teal">
       <div class="container">
@@ -10,11 +17,13 @@
       </div>
       <div class="footer-copyright">
         <div class="container">
-          &#xA9; {{"now" | date: "%Y"}} {{site.title}}. All rights reserved. Powered by <a href="https://github.com/ShawnTeoh/matjek">MatJek</a>.
+          &#xA9; {{"now" | date: "%Y"}} {{site.title}}. All rights reserved. Powered by <a href="https://github.com/zZfd">zZfd</a>. Supported by <a href="https://github.com/ShawnTeoh/matjek">MatJek</a>.
         </div>
       </div>
     </footer>
-    <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!-- <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> -->
+    <script src="//ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
     {% for js in layout.js %}
     {% if js contains "//" %}
