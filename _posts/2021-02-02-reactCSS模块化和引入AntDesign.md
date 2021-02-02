@@ -6,13 +6,13 @@ categories: 所学
 tags: react
 ---
 
-先吐槽一下。上个破班，闲嘛闲的要死，人都要烂掉。又加上等着过年，不知未来在何方哈哈。如今不缺粮草，又不愁冷暖。只是要满足自己对美好品质生活的渴望，最终用自己的方式来真正创造实现人生价值。
+先吐槽一下。上个破班，闲嘛闲得要死，人都要烂掉。又加上等着过年，不知未来在何方哈哈。如今不缺粮草，又不愁冷暖。只是要满足自己对美好品质生活的渴望，最终用自己的方式来真正创造实现人生价值。
 
 不负能量了。最近有在使用 electron + react 自己开发一个客户端应用。首先整个项目是通过 electron-boilerplate 模板来创建的，using Electron, React and Typescript。地址：https://github.com/sindresorhus/electron-boilerplate
 
 ps: 当想在 github 搜学习资源时，可以检索 awesome + [theme] 比如 awesome JavaScript, awesome Vue, etc.
 
-基于这个模板创建的项目,其中 react 的 webpack 配置文件是 webpack/react.webpack.js ，最初好像都没配置 css-loader，更别提什么 css 模块化了...幸好有点 webpack 基础和之前也比较系统的了解学习了 react。
+基于这个模板创建的项目,其中 react 的 webpack 配置文件是 webpack/react.webpack.js ，最初好像都没配置 css-loader，更别提什么 css 模块化了...幸好有点 webpack 基础和之前也比较系统地了解学习了 react。
 
 css 模块化：随着 react、vue 等基于模块化框架的普及，我们通常会将页面拆分为多个小组件，然后将多个组件拼接组成最终程序呈现的页面。但是如果页面中两个组件使用了相同的类名，后者的样式会把前者的覆盖掉，造成样式的命名冲突。所以就出现了 css 模块化的概念。vue 是我们在组件中写样式的时候加上 scoped 就好了，但是 react 通常要自己进行配置。CSS 模块化使得我们可以向 import js 一样来引用我们的 css 代码，代码中的每一个类名都是引入对象的一个属性。通过这种方式，在使用时明确指定所引用的 css 样式。在打包的时候自动地将类名转换为 hash 值，完全杜绝 css 类名冲突的问题。
 
@@ -112,11 +112,11 @@ css 命名规范 BEM：BEM，块 block，元素 element，修饰符 modifier。�
 
 首先 npm i antd -S 安装，然后在项目入口文件中**引入 antd 样式 import '~antd/dist/antd.css'**。当然前提是你的 webpack 支持解析 css 文件。
 
-如果优雅的使用该组件库并结合 ts 写 react 项目，可以参考https://github.com/ant-design/ant-design-pro
+如果优雅地使用该组件库并结合 ts 写 react 项目，可以参考https://github.com/ant-design/ant-design-pro
 
 css 的发展也应该进行到了可以使用 js 语言写 css，同样可以实现 css 模块化，比较好的方案是 styled-components。不过我暂时没法接受这样的写法，，感觉开发效率也不高。
 
-本篇博客想记录的就是这些吧，写的有点匆忙。不过通过写博客，对自己学习的帮助真的很大！同时要强迫自己继续坚持和养成写博客的好习惯。
+本篇博客想记录的就是这些吧，写得有点匆忙。不过通过写博客，对自己学习的帮助真的很大！同时要强迫自己继续坚持和养成写博客的好习惯。
 
 原文地址：<a href="https://zzfd.github.io/2021/02/02/reactCSS模块化和引入AntDesign">reactCSS 模块化和引入 AntDesign</a>
 
