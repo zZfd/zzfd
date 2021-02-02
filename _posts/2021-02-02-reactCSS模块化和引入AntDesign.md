@@ -8,7 +8,7 @@ tags: react
 
 先吐槽一下。上个破班，闲嘛闲的要死，人都要烂掉。又加上等着过年，不知未来在何方哈哈。如今不缺粮草，又不愁冷暖。只是要满足自己对美好品质生活的渴望，最终用自己的方式来真正创造实现人生价值。
 
---不负能量了。最近有在使用 electron + react 自己开发一个客户端应用。首先整个项目是通过 electron-boilerplate 模板来创建的，using Electron, React and Typescript。地址：https://github.com/sindresorhus/electron-boilerplate
+不负能量了。最近有在使用 electron + react 自己开发一个客户端应用。首先整个项目是通过 electron-boilerplate 模板来创建的，using Electron, React and Typescript。地址：https://github.com/sindresorhus/electron-boilerplate
 
 ps: 当想在 github 搜学习资源时，可以检索 awesome + [theme] 比如 awesome JavaScript, awesome Vue, etc.
 
@@ -20,15 +20,15 @@ css 命名规范 BEM：BEM，块 block，元素 element，修饰符 modifier。�
 
 {% highlight css %}
 
-/_ 块通常是指 Web 应用开发中的组件或模块。每个块在逻辑和功能上都是相互独立的。_/
+/* 块通常是指 Web 应用开发中的组件或模块.每个块在逻辑和功能上都是相互独立的*/
 
 .block{}
 
-/_ 元素是块中的组成部分。元素不能离开块使用，且 BEM 不推荐在元素中嵌套其他元素。_/
+/* 元素是块中的组成部分.元素不能离开块使用,且 BEM 不推荐在元素中嵌套其他元素*/
 
-.block\_\_element{}
+.block__element{}
 
-/_ 修饰符是用来定义块或元素的外观和行为。同样的块在应用不同的修饰符之后，会有不同的外观。_/
+/* 修饰符是用来定义块或元素的外观和行为.同样的块在应用不同的修饰符之后,会有不同的外观*/
 
 .block--modifier{}
 
@@ -36,7 +36,7 @@ css 命名规范 BEM：BEM，块 block，元素 element，修饰符 modifier。�
 
 饿了么团队开源的 element-ui 组件库的 css 类命名采用的就是此规范。而蚂蚁金服的 ant-design 好像并没有哈哈。之后自己也将一直遵守这样的规范，逐渐养成自己的一整套规范！开发就是要规范化，争取不写垃圾代码。
 
-<div align=center>
+<div align=center>
   <img src="{{site.baseurl}}/assets/res/02020101.jpg" width="800" alt="elementUICSS命名"/>
 </div>
 
@@ -109,7 +109,7 @@ css 命名规范 BEM：BEM，块 block，元素 element，修饰符 modifier。�
 
 最后引入 AntDesign。项目地址https://ant-design.gitee.io/docs/react/introduce-cn。
 
-首先 npm i antd -S 安装，然后在项目入口文件中**引入 antd 样式 import './styles/global.css'**。当然前提是你的 webpack 支持解析 css 文件。
+首先 npm i antd -S 安装，然后在项目入口文件中**引入 antd 样式 import '~antd/dist/antd.css'**。当然前提是你的 webpack 支持解析 css 文件。
 
 如果优雅的使用该组件库并结合 ts 写 react 项目，可以参考https://github.com/ant-design/ant-design-pro
 
