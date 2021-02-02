@@ -37,8 +37,9 @@ css 命名规范 BEM：BEM，块 block，元素 element，修饰符 modifier。�
 饿了么团队开源的 element-ui 组件库的 css 类命名采用的就是此规范。而蚂蚁金服的 ant-design 好像并没有哈哈。之后自己也将一直遵守这样的规范，逐渐养成自己的一整套规范！开发就是要规范化，争取不写垃圾代码。
 
 <div align=center>
-  <img src="{{site.baseurl}}/assets/res/02020101.jpg" width="800" alt="elementUICSS命名"/>
+  <img src="{{site.baseurl}}/assets/res/02020101.jpg" width="800" alt="elementUICSS命名"/>
 </div>
+
 
 配置 css 模块化：
 
