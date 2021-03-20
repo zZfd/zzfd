@@ -41,7 +41,7 @@ const file = {uid:'', name:'', url:'', status:'', percentage:''}
 {% endhighlight %}
 
 <div align=center>
-  <img src="{{site.baseurl}}/assets/res/03200101.jpg" width="800" alt="upload组件目录结构"/>
+  <img src="{{site.baseurl}}/assets/res/03200101.jpg" width="200" alt="upload组件目录结构"/>
 </div>
 
 **使用总结**<br />
@@ -75,4 +75,4 @@ return function(file, fileList) {
 
 大概就是这些吧，在实际使用中可以多阅读源码，多输出信息看看。早点休息，狗头保命。还有什么 mixins 可以总结的，最后的最后我已经打算弃 Vue 使用 React 了，无关技术纯属喜好。
 
-原文地址：<a href="https://zzfd.github.io/2021/03/20/elementUi之elUpload">elementUi 之 elUpload</a>
+原文地址：<a href="https://zzfd.github.io/2021/03/20/elementUi之elUpload">elementUi之elUpload</a>
